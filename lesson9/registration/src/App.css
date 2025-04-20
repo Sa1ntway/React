@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaNew';
+	src: url('./fonts/FuturaNewExtraBold-Reg.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'FuturaNew';
+	src: url('./fonts/FuturaNewLight-Reg.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Caveat';
+	src: url('./fonts/Caveat-Regular.ttf');
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Roboto, Arial;
+}
+
+body {
+	background: url('./img/fon.jpg') no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
